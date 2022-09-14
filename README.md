@@ -31,21 +31,21 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop normal view
-![](./screenshots/Desktop_normal)
+![](./screenshots/Desktop_normal.png)
 
 #### Desktop active view
-![](./screenshots/Desktop_active)
+![](./screenshots/Desktop_active.png)
 
 #### Mobile normal view
-![](./screenshots/Mobile_normal)
+![](./screenshots/Mobile_normal.png)
 
 #### Mobile active view
-![](./screenshots/Mobile_active)
+![](./screenshots/Mobile_active.png)
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://intro-component-with-signup-form-yaikarace.vercel.app/)
 
 ## My process
 
