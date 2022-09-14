@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.text-input {
+		@apply border;
+		@apply placeholder:text-dark-blue;
+		@apply placeholder:font-semibold;
+		@apply p-4;
+		@apply w-full;
+		@apply rounded-md;
+		@apply text-dark-blue;
+		@apply focus:outline-blue;
+	}
+	.error-icon {
+		@apply absolute;
+		@apply right-0;
+		@apply -translate-y-10;
+		@apply -translate-x-8;
+	}
+	.err-msg {
+		@apply text-red;
+		@apply text-right;
+		@apply mb-4;
+	}
+}

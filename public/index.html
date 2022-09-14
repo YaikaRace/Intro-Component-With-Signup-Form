@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+		<title>Frontend Mentor | Intro component with sign up form</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="css/styles.css" />
+		<script
+			src="js/main.js"
+			defer></script>
+	</head>
+	<body
+		class="w-screen bg-red bg-bg-mobile md:bg-bg-desktop text-white text-center md:flex md:items-center border-red">
+		<main
+			class="w-11/12 mx-auto my-20 md:my-0 md:grid md:grid-rows-[11] md:grid-cols-2 md:grid-flow-col">
+			<article
+				class="md:row-span-[11] md:row-start-1 md:row-end-[11] md:text-left md:self-center md:w-[80%]">
+				<h1 class="text-3xl font-bold md:text-6xl md:mb-8">
+					Learn to code by watching others
+				</h1>
+				<p>
+					See how experienced developers solve problems in real-time. Watching
+					scripted tutorials is great, but understanding how developers think is
+					invaluable.
+				</p>
+			</article>
+			<div
+				class="bg-blue py-5 px-16 rounded-xl mt-12 mb-8 shadow-shadow shadow-dark-blue/30 md:col-span-1">
+				<span class="font-bold">Try it free 7 days</span> then $20/mo.
+				thereafter
+			</div>
+			<article
+				class="bg-white relative p-6 rounded-lg mb-6 shadow-shadow shadow-dark-blue/30 md:row-span-[9] md:col-span-1">
+				<form
+					action=""
+					data-id="form">
+					<input
+						type="text"
+						placeholder="First Name"
+						data-id="text-input"
+						class="text-input mb-4 border-grayish-blue" />
+					<img
+						src="images/icon-error.svg"
+						alt="Icon error"
+						data-id="error-icon"
+						class="error-icon hidden" />
+					<p
+						class="err-msg hidden"
+						data-id="err-msg">
+						First name cannot be empty
+					</p>
+
+					<input
+						type="text"
+						placeholder="Last Name"
+						data-id="text-input"
+						class="text-input mb-4 border-grayish-blue" /><img
+						src="images/icon-error.svg"
+						alt="Icon error"
+						data-id="error-icon"
+						class="error-icon hidden" />
+					<p
+						class="err-msg hidden"
+						data-id="err-msg">
+						Last name cannot be empty
+					</p>
+
+					<input
+						type="email"
+						placeholder="Email Address"
+						data-id="text-input"
+						class="text-input mb-4 border-grayish-blue" /><img
+						src="images/icon-error.svg"
+						alt="Icon error"
+						data-id="error-icon"
+						class="error-icon hidden" />
+					<p
+						class="err-msg hidden"
+						data-id="err-msg">
+						Looks like this is not an email
+					</p>
+
+					<input
+						type="password"
+						placeholder="Password"
+						data-id="text-input"
+						class="text-input mb-4 border-grayish-blue" /><img
+						src="images/icon-error.svg"
+						alt="Icon error"
+						data-id="error-icon"
+						class="error-icon hidden" />
+					<p
+						class="err-msg hidden"
+						data-id="err-msg">
+						Password cannot be empty
+					</p>
+
+					<input
+						type="submit"
+						value="Claim your free trial"
+						data-id="submit"
+						class="bg-green w-full p-4 rounded-md cursor-pointer hover:bg-green/70" />
+				</form>
+				<p class="text-grayish-blue text-xs mt-4">
+					By clicking the button, you are agreeing to our
+					<a
+						href="#"
+						class="text-red"
+						>Terms and Services</a
+					>
+				</p>
+			</article>
+			<footer class="md:fixed md:bottom-0 md:right-0 md:left-0">
+				<p class="text-xs text-center text-dark-blue">
+					Challenge by
+					<a
+						href="https://www.frontendmentor.io?ref=challenge"
+						target="_blank"
+						class="text-white"
+						>Frontend Mentor</a
+					>. Coded by
+					<a
+						href="https://www.frontendmentor.io/profile/yaikarace"
+						class="text-white"
+						>Yahir (Yaika Race)</a
+					>.
+				</p>
+			</footer>
+		</main>
+	</body>
+</html>
